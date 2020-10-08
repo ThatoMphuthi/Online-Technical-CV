@@ -1,0 +1,452 @@
+                                            body {
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                font-size: 18px;
+                                                font-family: sans-serif;
+                                                list-style: none;
+                                                padding: 0;
+                                            }
+                                            
+                                            .mainNav4 {
+                                                width: 50%;
+                                                margin: 0;
+                                                overflow: hidden;
+                                                background-color: black;
+                                                color: white;
+                                                text-align: center;
+                                                padding: 20px;
+                                                margin-top: 50px;
+                                            }
+                                            /* Top Header */
+                                            
+                                            #mainNav {
+                                                background: black;
+                                                position: fixed;
+                                                top: 0px;
+                                                width: 100%;
+                                                height: 60px;
+                                                padding: 0 100px;
+                                                box-sizing: border-box;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                transition: 0.5s;
+                                                /* color: white; */
+                                            }
+                                            
+                                            .menu-btn i {
+                                                color: white;
+                                                padding-left: 0px;
+                                                padding-right: 0px;
+                                                margin-left: 0px;
+                                                margin-right: 0px;
+                                                display: none;
+                                            }
+                                            /* .checkbtn {
+                            font-size: 30px;
+                            color: white;
+                            float: right;
+                            line-height: 80px;
+                        }
+                         */
+                                            
+                                            #mainNav ul {
+                                                padding: 0;
+                                                margin: 0;
+                                                /* list-style: none; */
+                                                /* display: flex; */
+                                            }
+                                            
+                                            #mainNav li {
+                                                display: inline;
+                                                padding: 5px 10px;
+                                            }
+                                            
+                                            #mainNav a {
+                                                color: white;
+                                                text-decoration: solid;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #mainNav li:hover {
+                                                background: grey;
+                                            }
+                                            /* PARTICLE MOVING JS */
+                                            
+                                            #particles-js {
+                                                background-image: url(../img/fire.jpg);
+                                                background-size: cover;
+                                                height: cover;
+                                                width: 101%;
+                                            }
+                                            
+                                            #main {
+                                                float: right;
+                                                width: 70%;
+                                                padding: 0 30px;
+                                                box-sizing: border-box;
+                                            }
+                                            /* Programing Languages */
+                                            /* Social Media */
+                                            
+                                            Style all font awesome icons .fa {
+                                                padding: 30px;
+                                                font-size: 40px;
+                                                width: 60px;
+                                                text-align: center;
+                                                text-decoration: none;
+                                            }
+                                            /* Add a hover effect if you want */
+                                            
+                                            .social-link {
+                                                text-align: center;
+                                                padding-left: -15px;
+                                                padding-right: -15px;
+                                                margin-right: auto;
+                                                margin-left: auto;
+                                            }
+                                            
+                                            .row {
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                margin: auto;
+                                                margin-left: -15px;
+                                                margin-right: -15px;
+                                                height: 40px;
+                                            }
+                                            
+                                            .container {
+                                                width: 100%;
+                                            }
+                                            
+                                            .fa:hover {
+                                                opacity: 0.7;
+                                            }
+                                            /* Set a specific color for each brand */
+                                            /* Facebook */
+                                            
+                                            .fa {
+                                                padding: 20px;
+                                                font-size: 30px;
+                                                width: 20px;
+                                                text-align: center;
+                                                text-decoration: none;
+                                            }
+                                            
+                                            .fa-facebook {
+                                                background: #3B5998;
+                                                color: white;
+                                                border-radius: 50%;
+                                            }
+                                            /* Twitter */
+                                            
+                                            .fa-instagram {
+                                                background: #E1306C;
+                                                color: white;
+                                                border-radius: 50%;
+                                            }
+                                            
+                                            .fa-github {
+                                                background: grey;
+                                                color: white;
+                                                border-radius: 50%;
+                                            }
+                                            
+                                            .fa-linkedin-in {
+                                                background: rgb(55, 147, 209);
+                                                color: white;
+                                                border-radius: 50%;
+                                            }
+                                            
+                                            a .topimage {
+                                                border-radius: 80px;
+                                                height: 400px;
+                                            }
+                                            
+                                            #topImg {
+                                                float: left;
+                                                padding: 20px;
+                                                border-radius: 80px;
+                                                height: 400px;
+                                                /* filter: drop-shadow(0px 5px 3px black); */
+                                            }
+                                            
+                                            a .image {
+                                                width: 50px;
+                                                height: 50px;
+                                                border-radius: 30px;
+                                                margin-right: 20px;
+                                                margin-left: 180px;
+                                                padding-right: 80px;
+                                                margin-bottom: -335px;
+                                                margin-top: 0px;
+                                                padding: 30%;
+                                                padding-top: 0px;
+                                                text-align: center;
+                                            }
+                                            
+                                            #about {
+                                                width: 60%;
+                                                float: right;
+                                                padding: 30px;
+                                                padding-right: 30px;
+                                                padding-top: 0px;
+                                            }
+                                            
+                                            .resume {
+                                                width: 70%;
+                                                float: left;
+                                                padding-left: 60px;
+                                                padding-top: 0px;
+                                            }
+                                            /* SKILLS ANIMATION */
+                                            
+                                            .skills {
+                                                width: 70%;
+                                                float: left;
+                                                padding-left: 60px;
+                                            }
+                                            
+                                            .skills h5:nth-child(2) {
+                                                float: right;
+                                                position: relative;
+                                                top: -65px;
+                                            }
+                                            
+                                            .bar {
+                                                background: white;
+                                                display: block;
+                                                height: 2px;
+                                                border: 1px solid rgba(0, 0, 0, 0.3);
+                                                border-radius: 3px;
+                                                overflow: hidden;
+                                                box-shadow: 0 0 10px #2187e7b3;
+                                            }
+                                            
+                                            .bar span {
+                                                height: 2px;
+                                                float: left;
+                                                background: #2187e7;
+                                            }
+                                            
+                                            .java {
+                                                width: 80%;
+                                                animation: java 3s;
+                                            }
+                                            
+                                            .c {
+                                                width: 100%;
+                                                animation: c 3s;
+                                            }
+                                            
+                                            .python {
+                                                width: 85%;
+                                                animation: python 3s;
+                                            }
+                                            
+                                            .html {
+                                                width: 90%;
+                                                animation: html 3s;
+                                            }
+                                            
+                                            .css {
+                                                width: 90%;
+                                                animation: css 3s;
+                                            }
+                                            
+                                            .jquery {
+                                                width: 80%;
+                                                animation: jquery 3s;
+                                            }
+                                            
+                                            .javascript {
+                                                width: 80%;
+                                                animation: javascript 3s;
+                                            }
+                                            
+                                            @keyframes java {
+                                                0% {
+                                                    width: 0%;
+                                                }
+                                                100% {
+                                                    width: 80%;
+                                                }
+                                            }
+                                            
+                                            @keyframes c {
+                                                0% {
+                                                    width: 0%;
+                                                }
+                                                100% {
+                                                    width: 100%;
+                                                }
+                                            }
+                                            
+                                            @keyframes python {
+                                                0% {
+                                                    width: 0%;
+                                                }
+                                                100% {
+                                                    width: 85%;
+                                                }
+                                            }
+                                            
+                                            @keyframes html {
+                                                0% {
+                                                    width: 0%;
+                                                }
+                                                100% {
+                                                    width: 90%;
+                                                }
+                                            }
+                                            
+                                            @keyframes css {
+                                                0% {
+                                                    width: 0%;
+                                                }
+                                                100% {
+                                                    width: 90%;
+                                                }
+                                            }
+                                            
+                                            @keyframes jquery {
+                                                0% {
+                                                    width: 0%;
+                                                }
+                                                100% {
+                                                    width: 80%;
+                                                }
+                                            }
+                                            
+                                            @keyframes javascript {
+                                                0% {
+                                                    width: 0%;
+                                                }
+                                                100% {
+                                                    width: 80%;
+                                                }
+                                            }
+                                            
+                                            #mainFooter {
+                                                background-color: black;
+                                                color: white;
+                                                text-align: center;
+                                                padding: 20px;
+                                                margin-top: 50px;
+                                                /* position: fixed; */
+                                            }
+                                            
+                                            @media(max-width: 768px) {
+                                                #particles-js {
+                                                    width: 133%;
+                                                }
+                                                #about {
+                                                    padding-right: 240px;
+                                                }
+                                                a .image {
+                                                    margin-bottom: -210px;
+                                                    margin-right: 105px;
+                                                    margin-left: 240px;
+                                                }
+                                                .menu-btn i {
+                                                    color: white;
+                                                    padding-left: 0px;
+                                                    padding-right: 0px;
+                                                    margin-left: 0px;
+                                                    margin-right: 0px;
+                                                    display: block;
+                                                    list-style: none;
+                                                }
+                                                #mainNav ul {
+                                                    margin: 223px;
+                                                    margin-left: 0px;
+                                                    padding-right: 0px;
+                                                    padding: 2px;
+                                                }
+                                                #mainFooter {
+                                                    margin-right: -245px;
+                                                }
+                                            }
+                                            
+                                            @media (max-width: 360px) {
+                                                #particles-js {
+                                                    width: 133%;
+                                                    display: block;
+                                                    padding-top: 50px;
+                                                }
+                                                #about {
+                                                    padding-right: 120px;
+                                                }
+                                                .resume {
+                                                    padding-left: 20px;
+                                                }
+                                                .skills {
+                                                    padding-left: 20px;
+                                                }
+                                                #mainFooter {
+                                                    margin-top: 0px;
+                                                    padding-right: 90px;
+                                                    margin-right: -110px;
+                                                    text-align: start;
+                                                }
+                                                a .image {
+                                                    margin-bottom: -100px;
+                                                    margin-right: 105px;
+                                                    margin-left: 43px;
+                                                }
+                                                #mainNav {
+                                                    background: transparent;
+                                                    margin-left: -70px;
+                                                    margin-right: 0px;
+                                                    position: relative;
+                                                    top: 0px;
+                                                    width: 100%;
+                                                    height: 200px;
+                                                    padding: 0 100px;
+                                                    box-sizing: border-box;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    transition: 0.5s;
+                                                }
+                                                .menu-btn i {
+                                                    color: white;
+                                                    padding-left: 0px;
+                                                    padding-right: 0px;
+                                                    margin-left: 0px;
+                                                    margin-right: 0px;
+                                                    display: block;
+                                                    list-style: none;
+                                                }
+                                                #mainNav ul {
+                                                    margin: -30px;
+                                                }
+                                            }
+                                            
+                                            @media(min-width: 1366px) {
+                                                #particles-js {
+                                                    width: 133%;
+                                                }
+                                                #about {
+                                                    padding-right: 124px;
+                                                }
+                                                a .image {
+                                                    margin-bottom: -390px;
+                                                    margin-right: 105px;
+                                                    margin-left: 245px;
+                                                }
+                                                .menu-btn i {
+                                                    color: white;
+                                                    padding-left: 0px;
+                                                    padding-right: 0px;
+                                                    margin-left: 0px;
+                                                    margin-right: 0px;
+                                                    display: block;
+                                                    list-style: none;
+                                                }
+                                                #mainNav ul {
+                                                    margin: 223px;
+                                                    margin-left: 0px;
+                                                    padding-right: 0px;
+                                                    padding: 2px;
+                                                }
+                                            }
